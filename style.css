@@ -90,7 +90,7 @@ body{
    background-color: #232323;
    /* height: 8rem; */
    border-radius: 0.75rem;
-  margin: 0.75rem 0 1.5rem 0;
+  margin: 0.75rem 0 1rem 0;
   padding: 0.75rem 1.25rem;
 }
  .boxonep{
@@ -118,6 +118,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 10;
  }
  .first{
    margin-left: 0.75rem;
@@ -171,4 +172,65 @@ body{
 .cards h1{
     font-size: 1rem;   /* text chhota */
     margin: 1rem 0 10px 0;  /* extra space hata diya */
+}
+.footer{
+    height: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+.music-Player{
+    display: flex;
+    /* align-items: center; */
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    gap: 10px;   /* image aur text ke beech natural gap */
+}
+
+.footerclass{
+    height: 65px;
+    border-radius: 5px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.text p{
+   margin: 0;
+   line-height: 1.7;
+}
+.artist{
+    opacity: 0.6;
+}
+.helloworld{
+    opacity: 0.6;
+}
+.lastpart{
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-left: 150px;
+    gap: 10px;
+}
+.player-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    gap: 10px;
+ margin-top: 10px;
+}
+.player-control-icon{
+    height: 1rem;
 }
